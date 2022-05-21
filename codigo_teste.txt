@@ -15,6 +15,4 @@ git commit -m "mensagem" > fala o que modificou na nova versão e etc
 git push > envia para a nuvem
 
 9) "git reflog" > mostra os logs de versões feitos e os commits sendo o primeiro o atual
-
-
-
+10) "git reset --hard <id da versão> = faz voltar ou ir para a versão desejada do código
