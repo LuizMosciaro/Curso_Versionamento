@@ -9,7 +9,12 @@ Teste do curso de git
 7)"git push" = envia para a nuvem, mas precisa primeiro configurar, no proximo passo 
 7.1) Criar um repositório novo no GitHub e copiar a url dele atraves do comando "git remote add <name> <url do repositório>"  > em "name" deve-se colocar 'origin' nao entendi porque ainda
 8) Vai dar o erro dizendo q não tem branch ainda, no console da uma alternativa que é o comando "git push --set-upstream origin master" e uns segundos depois abrirá uma tela de login e redirecionará para aceitar o login do git no github, no console aparecerá que foi logado com sucesso.
+------RESUMO------
+git add > adiciona
+git commit -m "mensagem" > fala o que modificou na nova versão e etc
+git push > envia para a nuvem
 
+9) "git reflog" > mostra os logs de versões feitos e os commits sendo o primeiro o atual
 
 
 
