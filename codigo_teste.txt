@@ -1,0 +1,6 @@
+Teste do curso de git
+1)Criar uma pasta,entrar nela e clicar com botão direito do mouse. Depois clicar em "Git bash here"
+2)No git escrever no console "git init" e dar enter pra criar um git na pasta
+3)Ao escrever no console "git status" aponta quais códigos ja estão no controle de versão e quais não estão.
+3.1) commit = versão do codigo / untracked files = arquivos fora do controle de versão / 'git add "<nome do arquivo>"' adiciona um arquivo em especifico ao controle de versao
+4)
