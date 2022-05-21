@@ -3,4 +3,13 @@ Teste do curso de git
 2)No git escrever no console "git init" e dar enter pra criar um git na pasta
 3)Ao escrever no console "git status" aponta quais códigos ja estão no controle de versão e quais não estão.
 3.1) commit = versão do codigo / untracked files = arquivos fora do controle de versão / 'git add "<nome do arquivo>"' adiciona um arquivo em especifico ao controle de versao
-4)
+4) "git add ." = adiciona todos arquivo de uma vez para o controle de versão
+5) "git commit -m "<mensagem a ser colocada no commit>" = onde -m = mensagem e entre "" o texto (se ainda não tiver logado tem que fazer o passo 6 e depois refazer o passo 5)
+6) git config --global user.email "meu email" e git config --global user.name "meu nick no github"= para fazer login do github nick
+7)"git push" = envia para a nuvem, mas precisa primeiro configurar, no proximo passo 
+7.1) Criar um repositório novo no GitHub e copiar a url dele atraves do comando "git remote add <name> <url do repositório>"  > em "name" deve-se colocar 'origin' nao entendi porque ainda
+8) Vai dar o erro dizendo q não tem branch ainda, no console da uma alternativa que é o comando "git push --set-upstream origin master" e uns segundos depois abrirá uma tela de login e redirecionará para aceitar o login do git no github, no console aparecerá que foi logado com sucesso.
+
+
+
+
