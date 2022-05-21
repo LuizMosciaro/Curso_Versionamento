@@ -24,4 +24,9 @@ git push > envia para a nuvem
 12)'git branch <nome da branch>' = cria uma nova branch (ele aponta se já houver uma com esse nome)
 13)'git checkout <nome da branch>' = vai selecionar para a branch que se deseja trabalhar
 
+---Merging---
+14)Entrar na branch que vai receber as atualizações
+OBS: ANTES de fazer o merge, pegar a versão mais atual do branch master através do comando "git pull"
+15)Quando estiver na branch que vai RECEBER as atualizações do merge digitar: 'git merge <nome da branch que vai dar a atualização>' , no nosso caso a master receberá as atualizações da branch staging
+
 
